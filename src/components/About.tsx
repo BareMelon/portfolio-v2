@@ -61,11 +61,11 @@ const About: React.FC = () => {
               <div className="bg-gradient-to-br from-gray-700 to-gray-600 rounded-2xl p-8">
                 <div className="flex items-center mb-6">
                   <div className="w-24 h-24 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 p-1 mr-6">
-                    <img 
-                      src="/images/miles.png" 
-                      alt="Miles" 
-                      className="w-full h-full rounded-full object-cover"
-                    />
+                                         <img 
+                       src={`${process.env.PUBLIC_URL}/images/miles.png`}
+                       alt="Miles" 
+                       className="w-full h-full rounded-full object-cover"
+                     />
                   </div>
                   <div>
                     <h3 className="text-2xl font-bold text-white mb-2">Miles</h3>

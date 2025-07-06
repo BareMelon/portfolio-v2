@@ -51,7 +51,7 @@ const Hero: React.FC = () => {
             <div className="relative inline-block">
               <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-r from-blue-500 via-purple-500 to-indigo-500 p-1 shadow-glow">
                 <img 
-                  src="/images/miles.png" 
+                  src={`${process.env.PUBLIC_URL}/images/miles.png`}
                   alt="Miles" 
                   className="w-full h-full rounded-full object-cover"
                 />

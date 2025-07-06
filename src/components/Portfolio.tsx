@@ -12,20 +12,20 @@ const Portfolio: React.FC = () => {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const portfolioItems = [
-    { id: 1, title: 'Latest Work 1', image: '/images/portfolio/1.png' },
-    { id: 2, title: 'Latest Work 2', image: '/images/portfolio/2.png' },
-    { id: 3, title: 'Latest Work 3', image: '/images/portfolio/3.png' },
-    { id: 4, title: 'Latest Work 4', image: '/images/portfolio/4.png' },
-    { id: 5, title: 'Latest Work 5', image: '/images/portfolio/5.png' },
-    { id: 6, title: 'Latest Work 6', image: '/images/portfolio/6.png' },
-    { id: 7, title: 'Latest Work 7', image: '/images/portfolio/7.png' },
-    { id: 8, title: 'Latest Work 8', image: '/images/portfolio/8.png' },
-    { id: 9, title: 'Latest Work 9', image: '/images/portfolio/9.png' },
-    { id: 10, title: 'Latest Work 10', image: '/images/portfolio/10.png' },
-    { id: 11, title: 'Latest Work 11', image: '/images/portfolio/11.png' },
-    { id: 12, title: 'Latest Work 12', image: '/images/portfolio/12.png' },
-    { id: 13, title: 'Latest Work 13', image: '/images/portfolio/13.png' },
-    { id: 14, title: 'Latest Work 14', image: '/images/portfolio/14.png' }
+    { id: 1, title: 'Latest Work 1', image: `${process.env.PUBLIC_URL}/images/portfolio/1.png` },
+    { id: 2, title: 'Latest Work 2', image: `${process.env.PUBLIC_URL}/images/portfolio/2.png` },
+    { id: 3, title: 'Latest Work 3', image: `${process.env.PUBLIC_URL}/images/portfolio/3.png` },
+    { id: 4, title: 'Latest Work 4', image: `${process.env.PUBLIC_URL}/images/portfolio/4.png` },
+    { id: 5, title: 'Latest Work 5', image: `${process.env.PUBLIC_URL}/images/portfolio/5.png` },
+    { id: 6, title: 'Latest Work 6', image: `${process.env.PUBLIC_URL}/images/portfolio/6.png` },
+    { id: 7, title: 'Latest Work 7', image: `${process.env.PUBLIC_URL}/images/portfolio/7.png` },
+    { id: 8, title: 'Latest Work 8', image: `${process.env.PUBLIC_URL}/images/portfolio/8.png` },
+    { id: 9, title: 'Latest Work 9', image: `${process.env.PUBLIC_URL}/images/portfolio/9.png` },
+    { id: 10, title: 'Latest Work 10', image: `${process.env.PUBLIC_URL}/images/portfolio/10.png` },
+    { id: 11, title: 'Latest Work 11', image: `${process.env.PUBLIC_URL}/images/portfolio/11.png` },
+    { id: 12, title: 'Latest Work 12', image: `${process.env.PUBLIC_URL}/images/portfolio/12.png` },
+    { id: 13, title: 'Latest Work 13', image: `${process.env.PUBLIC_URL}/images/portfolio/13.png` },
+    { id: 14, title: 'Latest Work 14', image: `${process.env.PUBLIC_URL}/images/portfolio/14.png` }
   ];
 
   return (

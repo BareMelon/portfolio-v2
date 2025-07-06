@@ -46,11 +46,11 @@ const About: React.FC = () => {
             <div className="glass-effect rounded-3xl p-8">
               <div className="flex items-center mb-8">
                 <div className="w-24 h-24 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 p-1 mr-6">
-                  <img 
-                    src="/images/miles.png" 
-                    alt="Miles" 
-                    className="w-full h-full rounded-full object-cover"
-                  />
+                                     <img 
+                     src={`${process.env.PUBLIC_URL}/images/miles.png`}
+                     alt="Miles" 
+                     className="w-full h-full rounded-full object-cover"
+                   />
                 </div>
                 <div>
                   <h2 className="text-3xl font-bold text-white mb-2">Miles</h2>

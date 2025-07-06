@@ -12,11 +12,11 @@ const Proofs: React.FC = () => {
   const [selectedProof, setSelectedProof] = useState<string | null>(null);
 
   const proofItems = [
-    { id: 1, title: 'Proof Chat 1 (1/2)', description: 'Payment with PlayStation Gift Code', image: '/images/proofs/1.jpg' },
-    { id: 2, title: 'Proof Chat 1 (2/2)', description: 'Payment with PlayStation Gift Code', image: '/images/proofs/2.jpg' },
-    { id: 3, title: 'Proof Chat 2 (1/1)', description: 'Payment with PlayStation Gift Code', image: '/images/proofs/3.jpg' },
-    { id: 4, title: 'Proof Chat 3 (1/2)', description: 'Payment with PayPal', image: '/images/proofs/4.jpg' },
-    { id: 5, title: 'Proof Chat 3 (2/2)', description: 'Payment with PayPal', image: '/images/proofs/5.jpg' }
+    { id: 1, title: 'Proof Chat 1 (1/2)', description: 'Payment with PlayStation Gift Code', image: `${process.env.PUBLIC_URL}/images/proofs/1.jpg` },
+    { id: 2, title: 'Proof Chat 1 (2/2)', description: 'Payment with PlayStation Gift Code', image: `${process.env.PUBLIC_URL}/images/proofs/2.jpg` },
+    { id: 3, title: 'Proof Chat 2 (1/1)', description: 'Payment with PlayStation Gift Code', image: `${process.env.PUBLIC_URL}/images/proofs/3.jpg` },
+    { id: 4, title: 'Proof Chat 3 (1/2)', description: 'Payment with PayPal', image: `${process.env.PUBLIC_URL}/images/proofs/4.jpg` },
+    { id: 5, title: 'Proof Chat 3 (2/2)', description: 'Payment with PayPal', image: `${process.env.PUBLIC_URL}/images/proofs/5.jpg` }
   ];
 
   return (
