@@ -14,7 +14,7 @@ A modern, professional portfolio website showcasing Roblox development and desig
 
 ## 🚀 Live Demo
 
-Visit the live website: [Portfolio Demo](https://yourusername.github.io/portfolio-v2)
+Visit the live website: [Portfolio Demo](https://BareMelon.github.io/portfolio-v2)
 
 ## 📸 Screenshots
 
@@ -44,7 +44,7 @@ Visit the live website: [Portfolio Demo](https://yourusername.github.io/portfoli
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/portfolio-v2.git
+git clone https://github.com/BareMelon/portfolio-v2.git
 cd portfolio-v2
 ```
 
@@ -149,7 +149,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Miles - [Discord](https://discord.com/channels/@me/1273301309315088404)
 
-Project Link: [https://github.com/yourusername/portfolio-v2](https://github.com/yourusername/portfolio-v2)
+Project Link: [https://github.com/BareMelon/portfolio-v2](https://github.com/BareMelon/portfolio-v2)
 
 ## 🙏 Acknowledgments
 
